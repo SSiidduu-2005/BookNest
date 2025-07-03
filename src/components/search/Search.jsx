@@ -25,7 +25,7 @@ const Search = () => {
                 <form className="search-form" onSubmit={handleSubmit}>
                     <input
                         type="text"
-                        placeholder='Harry Potter...'
+                        placeholder='Chetan Bhagath...'
                         ref={searchText}
                     />
                     <button type="submit" onClick={handleSubmit}>
